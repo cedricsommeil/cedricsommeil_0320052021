@@ -1,0 +1,530 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "roboto", Arial, Helvetica, sans-serif;
+}
+*{
+    box-sizing: border-box;/*permet généralement 
+                            de simplifier 
+                            la dimensionnement des éléments*/                     
+}
+
+/*loader*/
+.full__screen {
+   animation: loader-body 2s 400ms both;
+}
+
+@keyframes loader-body {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.loader {
+  border: 5px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 5px solid #9356DC;
+  border-bottom: 5px solid #9356DC;
+  width:120px;
+  height:120px;
+  -webkit-animation: chargement 2s linear;
+  animation: chargement 2s linear;
+  animation-fill-mode: forwards;
+  margin: auto;
+  position: absolute;
+  top:0;bottom:0;left:0;right:0;
+  z-index: 999;
+}
+@-webkit-keyframes chargement {
+  0% { -webkit-transform: rotate(0deg);
+        opacity:1;}
+  100% { -webkit-transform: rotate(360deg);
+         opacity: 0;}
+}
+
+@keyframes chargement {
+  0% { transform: rotate(0deg);
+       opacity: 1;}
+  100% { transform: rotate(360deg); 
+         opacity: 0;}
+}
+
+/*première feuille -header-*/
+.container{
+    width: 96%;            
+    margin: 0px auto;
+}
+.logo-ohmyfood {
+  display:block;
+  margin: 20px auto;
+  text-align: center;
+}
+.container_logo img{
+  width: 300px;
+}
+.container_logo img:hover{
+  transform: scale(1.08);
+}
+
+/*partie recherche*/
+#research{
+  border-top: 2px solid rgb(220, 220, 220);
+  width: 100%;
+  height: 59px;
+  background-color:rgb(234, 234, 234);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titre-recherche{
+  font-size: 20px;
+  font-weight: bolder;
+  color: #000;
+  padding-left: 21px;
+  display: inline-block;
+  margin-top: 14px;
+}
+.fa-map-marker-alt{
+  margin-left: -21px;
+}
+
+
+
+/*réservation*/
+h1{
+  margin-top: -1px;
+  padding-top: 20px;
+  font-size: 35px;
+}
+h1, .para-titre{
+  text-align: center;
+}
+.para-titre{
+  font-size: 20px;
+}
+.button{
+  text-align: center;
+  height: 57px;
+  border: 1 solid black;
+  border-radius: 25px;
+  display: inline-block;
+  width: 400px;
+  margin-left:40%;
+  margin-bottom: 42px;
+  padding-top: 15px;
+  background: -webkit-linear-gradient(to top left,#FF79DA,);
+  background: -o-linear-gradient(bottom right,#FF79DA,#9356DC);
+  background: -moz-linear-gradient(bottom right, #FF79DA,#9356DC);
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+  filter:brightness(80%);
+  transition: filter ease 1s, box-shadow ease 1s;
+  cursor:pointer;
+}  
+.button:hover{
+  filter:brightness(100%);
+  box-shadow: 10px 10px 33px -12px rgba(0, 0, 0, 0.75);
+}
+.button-recherche {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+.reserver{
+  width: 100%;
+  background-color:rgb(246, 246, 246);
+}
+
+
+
+
+/*les filtres*/
+.titre-filtre{
+  width: 15%;
+  margin-bottom: -12px;
+}
+.groupe-filter {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-left: -43px;
+ }
+#area-filters h2{
+  margin-left: 18px;
+  padding-top: 14px;
+  width: 100%;
+}
+#area-filters{
+  margin-bottom: 30px;
+}
+.filter{
+    margin-left: 70px;
+    padding-right: 15px;
+    height: 57px;
+    border-radius: 25px;
+    box-shadow: 2px 6px 5px #f0f0f0;
+    padding-top: 14px;
+    margin-top: 25px;
+    box-shadow: 0 0 10px grey;  
+}
+.filter:hover i{
+  color: #9356DC; 
+}
+.filter:hover{
+  background-color:#feedff;
+}
+.filtre-text:hover{
+  color: #000;
+ }
+.filtre-text{
+  padding: 60px;
+  padding-left: 40px;
+  font-weight: bolder;
+}
+.number-filter {
+    display: inline-block;
+    width: 22px;
+    background-color: rgb(147, 86, 220);
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 2px;
+    color: white;
+    margin-left: -7px;
+    margin-top: 2px;
+ }
+.wrapper-icon{
+  height: 40px;
+  width: 40px;
+  padding-left: 20px;
+}
+
+
+
+/*les cartes-menus*/
+a {
+  text-decoration: none;
+  color: black;
+}
+ul li {
+  list-style-type: none;
+  border-radius: 20px;
+  padding: 5px;
+  color: white;
+}
+
+.restaurant{
+  background-color: rgb(246, 246, 246);
+  padding: 30px;
+}
+.restaurant_carte h2{
+  margin: 15px 0px;
+  padding-left: 5px;
+}
+.restaurant_carte {
+  display: flex;
+  margin-left: -44px;
+}
+.restaurant_carte a {
+  width: 25%;
+  flex: 1;
+  padding: 5px;
+}
+.restaurant_carte figure:hover{
+  box-shadow: 4px 4px 7px 1px rgba(0, 0, 0, 0.50);
+}
+figure {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 10px  rgba(36, 36, 36, 0.1);
+  position: relative;
+}
+img{
+  object-fit: cover;
+}
+figure img {
+  height: 60%;
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+figcaption {
+  display: flex;
+  padding: 16px 0 16px 11px;
+  justify-content: space-between;
+  align-items: center;
+ }
+ figcaption p {
+  margin-top: 5px;
+}
+.new {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background-color: #99e2d0;
+  color: #008160;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 9px;
+}
+h4, p{
+  color: #000;
+}
+p{
+  font-size: 15px;
+}
+h4{
+  font-size: 20px;
+  margin-bottom: 9px;
+}
+
+/* les coeurs relatifs aux cartes-menu*/
+.coeur {
+  position: relative;
+  margin-right: 30px;
+}
+.coeur i {
+  color: rgb(161, 161, 161);
+  font-size: 35px;
+}
+.coeur .plein {
+  left: 0;
+  opacity: 0;
+  position: absolute;
+}
+.coeur:hover .vide {
+  opacity: 0;
+  -webkit-transition: .5s 0s ease;
+  transition: .5s 0s ease;
+}
+.coeur:hover .plein {
+  z-index: 1000;
+  color: #9356dc;
+  opacity: 1;
+  -webkit-transition: .5s 0s ease;
+  transition: .5s 0s ease;
+} 
+
+
+
+
+
+/*footer-menu*/
+#footer{
+  margin-top: 50px;
+  background-color: rgb(53, 53, 53);
+  color: white;
+  text-align: center;
+  padding: 20px;
+ }
+.footer .container{
+  margin: auto;
+}
+.logo-footer{ 
+   margin-top: 30px;
+   margin-left: 10px;
+} 
+.logo-footer svg path{
+  fill:white;
+}
+svg {
+  margin-left: 24px;
+}
+/* .list-footer li{ 
+  color: white;
+  font-size: 20px;
+} */
+.list-footer > li > a {
+  color: white;
+  font-size: 25px;
+}
+.fa-utensils{
+  padding-right: 14px;
+}
+.fa-hands-helping{
+  padding-right: 11px;
+}
+.mention-legale,.contact{
+  margin-left: 10px;
+}
+
+
+
+
+
+
+/*DEUXIEME PAGE DEKSTOP*/
+
+#header-second{
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 12px;
+}
+.fa-arrow-left{
+margin-top: 29px;
+display: inline-block;
+margin-left: -700px;
+font-size: 20px;
+color: #000;
+}
+.arrow{
+  margin-left: -100px;
+}
+.photo-menu img{
+  width: 100%;
+  height:350px;
+  object-fit: cover;
+}
+.titre-restaurant{ 
+  display: inline-block;
+  padding-left: 40%;
+}
+.coeur {
+  display: inline-block;
+  margin-left: 6%;
+}
+
+
+
+.titre-second{
+  color: #000;
+  font-size: 20px;
+  margin: 6px;
+}
+.para-second{
+  margin: 10px;
+}
+.filter-second{
+  animation-name:slideIn;
+  animation-duration:3s;
+}
+@keyframes slideIn{
+  from{
+      opacity:0;
+      transform:translate3d(0,5px,0);
+  }
+  
+  to{
+      opacity:1;
+      transform:translate3d(0,0,0);
+  }
+ }
+.filter-second {
+  width: 29%;
+  overflow: hidden;
+  display: flex;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px 1px rgb(36 36 36 / 10%);
+  margin-left: 35%;
+}
+.filter-second:hover{
+  cursor: pointer;
+}
+.boite{
+  display: flex;
+  justify-content: center;
+  background-color: #99e2d9;
+  align-items: center;
+  margin: -8px -95px -9px 15px;
+  transition-duration: 0.7s;
+  width: 80px;
+}
+.boite i{
+  font-size: 25px;
+  color: white;
+} 
+.filter-second:hover {
+  cursor: pointer;
+  box-shadow: 4px 4px 7px 1px rgba(0, 0, 0, 0.36);
+}
+.filter-second:active {
+  box-shadow: 4px 4px 7px 1px rgba(0, 0, 0, 0.36);
+} 
+.filter-second:hover i {
+  transform: rotate(1turn);
+  transition: 450ms 200ms ease-out;
+}
+.filter-second:hover .boite {
+  margin-right: -10px;
+  box-shadow: 4px 4px 7px 1px rgba(0, 0, 0, 0.36);
+  cursor: pointer;
+}
+.text-menu{
+  flex: 1;
+/*je vais rajouter, tous ce qui est en dessous de flex:1 est un supplément nouveau de manière aque l'ecrit devient invisible*/
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+ }
+.text-menu .titre-second{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.text-menu .para-second{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.prix-menu {
+  align-self: flex-end;
+  font-weight: bold;
+  padding-bottom: 9px
+}
+
+
+.button-deuxieme-page{
+  text-align: center;
+  height: 57px;
+  border: 1 solid black;
+  border-radius: 25px;
+  display: inline-block;
+  width: 400px;
+  margin-left: 40%;
+  margin-top: 44px;
+  padding-top: 15px;
+  background: -webkit-linear-gradient(to top left,#FF79DA,#9356DC);
+  background: -o-linear-gradient(bottom right,#FF79DA,#9356DC);
+  background: -moz-linear-gradient(bottom right, #FF79DA,#9356DC);
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+  filter:brightness(80%);
+  transition:filter ease 1s, box-shadow ease 1s;
+  cursor:pointer;
+}
+.button-deuxieme-page:hover{
+  filter:brightness(100%);
+  box-shadow: 10px 10px 33px -12px rgba(0,0,0,0.75);
+}
+.commander{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.fa-utensils, .fa-hands-helping{
+  color: white;
+}
+
+.list-footer-deuxieme-page > li > a{
+  color: white;
+  font-size: 20px;
+}
+.list-footer-deuxieme-page li{
+  display: inline-block;
+  margin: 6px 28px;
+  color: white;
+  font-size: 20px;
+}
+.surligne{
+  border-bottom: 2px solid #99E2D0;
+  padding-bottom: 6px;
+}
+.title-border{
+  font-size: 20px;
+  margin-left: 39px;
+}

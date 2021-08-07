@@ -1,0 +1,268 @@
+@media screen and (max-width: 767px){
+.container{
+    width: 100%;
+    margin: 0px auto;
+}
+.ohmyfood{
+    font-size: 46px;
+}
+.container_logo img {
+    width: 200px;
+    margin-left: -20px;
+}
+.logo-ohmyfood{
+    width: 170px;
+    margin: 20px auto;
+}
+.fa-arrow-left{
+    margin-left: 11px;
+}
+
+.button{
+    margin-left: 85px;
+    margin-top: 25px;
+    width: 220px;
+    font-weight: bolder;
+}
+.button a{
+    color: white;
+    font-size: 18px;
+}
+
+h1{
+    margin-top: -1px;
+    font-size: 32px;
+}
+#research{
+    width: 100%;
+    /* height: 61px; */
+    border-left: none;
+    border-right: none;
+    margin-left: 0;
+}
+.fa-map-marker-alt{
+    padding-left: 0;
+}
+
+
+
+.filter:hover i{
+    color: #9356DC; 
+  }
+.filter:hover{
+    background-color:#feedff;
+  }
+.filter{
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: #FFF;
+    box-shadow: 0 0 10px grey;
+    background-color:#FFF;
+ 
+}
+.groupe-filter{
+    margin-left: 0;
+}
+.filtre-text{
+    padding-left: 10px;
+    margin-left: 0;
+    padding: 26px;
+}
+#area-filters h2{
+    padding-left: 17px;
+    margin-bottom: 25px;
+}
+#area-filters{
+    display: block;
+    width: 95%;
+    margin-bottom: 65px
+    }
+
+
+.restaurant{
+    padding: 0;
+}
+.restaurant_carte{
+    margin-top: -50px;
+}
+.restaurant h2{
+padding: 19px;
+padding-top: 43px
+}
+
+
+#restaurant section {
+    background-color: #f0f0f0;;
+}
+#restaurant h2{
+    padding-left: 15px;
+    margin-bottom: 0;
+    margin-top: 45px;
+    margin-bottom: 20px
+}
+#restaurant section{
+    display: flex;
+    flex-direction: column;
+   padding-bottom: 73px;
+}
+/* #restaurant img {
+    width: 344px;
+} */
+figure{
+    margin: 16px;
+}
+h4{
+    display: inline-block;
+    
+}
+.coeur-1{
+    display: inline-block;
+    position: absolute;
+    font-size: 25px;
+    margin-top: 7px;
+    margin-left: 31%;
+    
+}
+.coeur-2{
+    display: inline-block;
+    position: absolute;
+    font-size: 25px;
+    margin-top: 7px;
+    margin-left: 31%;
+}
+.coeur-3{
+    display: inline-block;
+    margin-left: 41%;
+    position: absolute;
+    font-size: 25px;
+    margin-top: 7px;
+}
+.coeur-4{
+    display: inline-block;
+    margin-left: 33%;
+    position: absolute;
+    margin-top: 9px;
+}
+.list-photo{
+    padding-left: 0px;
+    margin-top: 0;
+    margin-left: 14px;
+}
+.list-photo > li {
+  
+    margin-left: -1px;
+}
+
+#footer{
+    text-align: left;
+}
+.list-footer li {
+    margin: 2px -11px;
+ }
+.list-footer > li > a{
+    font-size: 20px;
+}
+
+
+/*deuxième page mobile*/
+#header-second{
+    margin-left: -78px;
+}
+#header-second img{
+    width: 180px;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+.logo-ohmyfood{
+ width: 150px;
+ margin: 20px auto;
+ margin-bottom: 9px;
+}
+#area-filters-second{
+    background-color:#f0f0f0;
+    border-radius: 50px 50px 0 0;
+    z-index: 100px;
+    margin-top: -74px;
+    position: relative;
+}
+
+.filter-second{
+    /* margin-left:0;
+    margin-right: 0;
+    padding: 6px;
+    margin: 10px;
+    background-color: white;
+    width: 94%; */
+    margin-left: 6px;
+    margin-right: 0;
+    padding: 3px;
+    margin: 6px; 
+    background-color: white;
+    width: 97%;
+}
+.title-border{
+    margin-left: 15px;
+}
+.titre-restaurant{
+    padding-left: 14px;
+    display: inline-block;
+}
+#grand-coeur{
+    display: inline-block;
+    padding-left: 35px;
+    font-size: 27px;
+}
+.regroupement-menu{
+    display: flex;
+   flex-direction: column;
+   margin-left: 0;
+  }
+
+.menu {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+  }
+.title-border{
+  
+    margin-bottom: 24px;
+    margin-top: 32px;
+}
+.détail{
+    
+    width: 90%;
+    font-size: 17px;
+}
+/* .price{
+     font-weight: bolder;
+} */
+.prix-menu {
+        align-self: flex-end;
+        padding: 7px;
+        font-weight: bold;
+        padding-bottom: 10px;
+}
+.button-deuxieme-page{
+    display: inline-block;
+    width: 213px;
+    margin-left: 21%;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    padding-top: 15px
+}
+.surligne{
+    border-bottom: 2px solid #99E2D0;
+}
+#footer{
+    margin-top: 0;
+}
+.list-footer-deuxieme-page li {
+    display:block;
+    padding: 2px 0px;
+    margin: 3px -27px;
+   
+}
+svg{
+    margin-left: 3px;
+}

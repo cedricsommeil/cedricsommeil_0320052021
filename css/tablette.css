@@ -1,0 +1,114 @@
+@media screen and (max-width: 1024px){
+
+.fa-map-marker-alt{
+    margin-left: -15px;
+}
+.arrow{
+    margin-left: -10px;
+    font-size: 25px;
+}
+
+.button{
+    width: 270px;
+    margin-left: 32%;
+}
+
+.filter{
+    margin-left: 198px;
+}
+.filtre-text {
+    padding-left: 54px;  
+}
+.groupe-filter{
+      display: block;
+      margin-left: 0;
+  }
+#area-filters{
+    width: 80%;
+    display: block; 
+}
+
+.restaurant_carte{
+    display: block;
+    margin-left: 0px;
+} 
+
+
+#restaurant {
+    display: block;
+}
+#restaurant img{
+    width: 646px;
+    height: 200px;
+}
+.titre-photo{
+    padding-top: 20px;
+}
+.list-photo{
+    display: flex;
+}
+
+.coeur-1{
+    display: inline-block;
+    position: absolute;
+    font-size: 25px;
+    margin-top: 4px;
+    margin-left: 53%
+}
+.coeur-2{
+    display: inline-block;
+    position: absolute;
+    font-size: 25px;
+    margin-top: 4px;
+    margin-left: 53%;
+}
+.coeur-3{
+    display: inline-block;
+    margin-left: 58%;
+    position: absolute;
+    font-size: 25px;
+    margin-top: 4px
+}
+.coeur-4{
+    display: inline-block;
+    position: absolute;
+    font-size: 25px;
+    margin-top: 4px;
+    margin-left: 53%;
+}
+
+.alignement-dekstop{
+ display: block;
+}
+.list-footer{
+    padding-left: 24px;
+    display: block;
+}
+.list-footer li{
+    margin:2px 11px;
+    padding-left: 0;
+    display: block;
+}
+.list-footer > li > a {
+    font-size: 25px;
+     }
+.fa-arrow-left{
+        margin-left: -150px;
+        font-size: 20px;
+}
+.titre-restaurant{
+    padding-left: 29%;
+}
+.button-deuxieme-page{
+    margin-left: 25%;
+}
+.filter-second{
+        margin-left: 54px;
+        width: 73%;
+}
+.regroupement-menu{
+ margin-left: -15px;
+ display: flex;
+ flex-direction: column;
+}
+ } 
