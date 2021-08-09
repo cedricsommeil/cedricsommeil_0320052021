@@ -364,6 +364,9 @@ svg {
   padding-top: 15px;
   padding-bottom: 12px;
 }
+.arrow{
+  margin-left: -100px;
+}
 .fa-arrow-left{
 margin-top: 29px;
 display: inline-block;
@@ -379,7 +382,7 @@ color: #000;
 }
 .titre-restaurant{ 
   display: inline-block;
-  padding-left: 40%;
+  padding-left: 39%;
 }
 .coeur {
   display: inline-block;
