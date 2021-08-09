@@ -164,6 +164,9 @@ h4{
 }
 
 
+
+
+
 /*deuxième page mobile*/
 #header-second{
     margin-left: -78px;
@@ -205,14 +208,12 @@ h4{
     margin-left: 15px;
 }
 .titre-restaurant{
-    padding-left: 4px;
+    padding-left: 21px;
     display: inline-block;
     font-size: 30px;
 }
-#grand-coeur{
-    display: inline-block;
-    padding-left: 35px;
-    font-size: 27px;
+.coeur1{
+    margin-left: 8%;
 }
 .regroupement-menu{
     display: flex;
