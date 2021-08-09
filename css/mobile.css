@@ -205,8 +205,9 @@ h4{
     margin-left: 15px;
 }
 .titre-restaurant{
-    padding-left: 14px;
+    padding-left: 4px;
     display: inline-block;
+    font-size: 30px;
 }
 #grand-coeur{
     display: inline-block;
