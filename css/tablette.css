@@ -107,7 +107,6 @@
         width: 73%;
 }
 .regroupement-menu{
- margin-left: -15px;
  display: flex;
  flex-direction: column;
 }
