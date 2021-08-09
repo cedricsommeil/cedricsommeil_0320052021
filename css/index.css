@@ -148,7 +148,7 @@ h1, .para-titre{
   display: flex;
   width: 100%;
   justify-content: center;
-  margin-left: -43px;
+  margin-left: -34px;
  }
 #area-filters h2{
   margin-left: 18px;
@@ -286,6 +286,10 @@ h4{
   position: relative;
   margin-right: 30px;
 }
+.coeur {
+  display: inline-block;
+  margin-left: 4%;
+}
 .coeur i {
   color: rgb(161, 161, 161);
   font-size: 35px;
@@ -384,10 +388,7 @@ color: #000;
   display: inline-block;
   padding-left: 39%;
 }
-.coeur {
-  display: inline-block;
-  margin-left: 4%;
-}
+
 .coeur1{
 
 }
