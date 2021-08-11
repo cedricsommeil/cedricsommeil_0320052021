@@ -9,7 +9,7 @@ body{
                             la dimensionnement des éléments*/                     
 }
 
-/* loader-body*/
+/*loader-body*/
 .full__screen {
    animation: loader-body 2s 400ms both;
 }
@@ -49,6 +49,7 @@ body{
   100% { transform: rotate(360deg); 
          opacity: 0;}
 }
+
 
 /*première feuille -header-*/
 .container{
@@ -109,7 +110,7 @@ h1, .para-titre{
   border-radius: 25px;
   display: inline-block;
   width: 400px;
-  margin-left: 38%;
+  margin-left: 39%;
   margin-bottom: 42px;
   padding-top: 15px;
   background: -webkit-linear-gradient(to top left,#FF79DA,);
@@ -146,7 +147,7 @@ h1, .para-titre{
   display: flex;
   width: 100%;
   justify-content: center;
-  margin-left: -62px;
+  margin-left: -43px;
 }
 #area-filters h2{
   margin-left: 18px;

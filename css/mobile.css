@@ -40,13 +40,7 @@ h1{
 }
 
 
-
-.filter:hover i{
-    color: #9356DC; 
-}
-.filter:hover{
-    background-color:#feedff;
-}
+/*filtres mobile*/
 .filter{
     margin-top: 30px;
     margin-left: 30px;
@@ -62,15 +56,23 @@ h1{
     margin-left: 0;
     padding: 26px;
 }
-#area-filters h2{
-    padding-left: 17px;
-    margin-bottom: 25px;
-}
 #area-filters{
     display: block;
     width: 95%;
     margin-bottom: 65px
 }
+
+#area-filters h2{
+    padding-left: 17px;
+    margin-bottom: 25px;
+}
+.filter:hover i{
+    color: #9356DC; 
+}
+.filter:hover{
+    background-color:#feedff;
+}
+
 
 
 .restaurant{
@@ -95,14 +97,13 @@ h1{
 #restaurant section{
     display: flex;
     flex-direction: column;
-   padding-bottom: 73px;
+    padding-bottom: 73px;
 }
 figure{
     margin: 16px;
 }
 h4{
-    display: inline-block;
-    
+    display: inline-block; 
 }
 /* .coeur-1{
     display: inline-block;
@@ -138,11 +139,10 @@ h4{
     margin-left: 14px;
 }
 .list-photo > li {
-  
     margin-left: -1px;
 }
 
-
+/*footer mobile*/
 #footer{
     text-align: left;
 }
@@ -157,7 +157,7 @@ h4{
 
 
 
-/*deuxième page mobile*/
+/*deuxième page, page menu mobile*/
 .fa-arrow-left{
     margin-left: 11px;
 }
@@ -171,9 +171,9 @@ h4{
     margin-bottom: 10px;
 }
 .logo-ohmyfood{
- width: 150px;
- margin: 20px auto;
- margin-bottom: 9px;
+    width: 150px;
+    margin: 20px auto;
+    margin-bottom: 9px;
 }
 #area-filters-second{
     background-color:#f0f0f0;
@@ -183,7 +183,7 @@ h4{
     position: relative;
 }
 
-/*filtres des pages menu*/
+/*filtres mobile des pages menu*/
 .filter-second{
     margin-left: 6px;
     margin-right: 0;
@@ -239,7 +239,7 @@ h4{
     border-bottom: 2px solid #99E2D0;
 }
 
-/*footer des pages menu*/
+/*footer mobile des pages menu*/
 .list-footer-deuxieme-page li {
     display:block;
     padding: 2px 0px;
