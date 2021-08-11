@@ -14,8 +14,8 @@
     width: 170px;
     margin: 20px auto;
 }
-.fa-arrow-left{
-    margin-left: 11px;
+.fa-map-marker-alt{
+    padding-left: 0;
 }
 
 .button{
@@ -28,37 +28,31 @@
     color: white;
     font-size: 18px;
 }
-
 h1{
     margin-top: -1px;
     font-size: 32px;
 }
 #research{
     width: 100%;
-    /* height: 61px; */
     border-left: none;
     border-right: none;
     margin-left: 0;
-}
-.fa-map-marker-alt{
-    padding-left: 0;
 }
 
 
 
 .filter:hover i{
     color: #9356DC; 
-  }
+}
 .filter:hover{
     background-color:#feedff;
-  }
+}
 .filter{
     margin-top: 30px;
     margin-left: 30px;
     background-color: #FFF;
     box-shadow: 0 0 10px grey;
     background-color:#FFF;
- 
 }
 .groupe-filter{
     margin-left: 0;
@@ -76,7 +70,7 @@ h1{
     display: block;
     width: 95%;
     margin-bottom: 65px
-    }
+}
 
 
 .restaurant{
@@ -86,11 +80,9 @@ h1{
     margin-top: -50px;
 }
 .restaurant h2{
-padding: 19px;
-padding-top: 43px
+    padding: 19px;
+    padding-top: 43px
 }
-
-
 #restaurant section {
     background-color: #f0f0f0;;
 }
@@ -105,9 +97,6 @@ padding-top: 43px
     flex-direction: column;
    padding-bottom: 73px;
 }
-/* #restaurant img {
-    width: 344px;
-} */
 figure{
     margin: 16px;
 }
@@ -115,7 +104,7 @@ h4{
     display: inline-block;
     
 }
-.coeur-1{
+/* .coeur-1{
     display: inline-block;
     position: absolute;
     font-size: 25px;
@@ -142,7 +131,7 @@ h4{
     margin-left: 33%;
     position: absolute;
     margin-top: 9px;
-}
+} */
 .list-photo{
     padding-left: 0px;
     margin-top: 0;
@@ -152,6 +141,7 @@ h4{
   
     margin-left: -1px;
 }
+
 
 #footer{
     text-align: left;
@@ -168,6 +158,9 @@ h4{
 
 
 /*deuxième page mobile*/
+.fa-arrow-left{
+    margin-left: 11px;
+}
 #header-second{
     margin-left: -78px;
 }
@@ -190,13 +183,8 @@ h4{
     position: relative;
 }
 
+/*filtres des pages menu*/
 .filter-second{
-    /* margin-left:0;
-    margin-right: 0;
-    padding: 6px;
-    margin: 10px;
-    background-color: white;
-    width: 94%; */
     margin-left: 6px;
     margin-right: 0;
     padding: 3px;
@@ -216,34 +204,28 @@ h4{
     margin-left: 8%;
 }
 .regroupement-menu{
-    display: flex;
+   display: flex;
    flex-direction: column;
    margin-left: 0;
-  }
-
+}
 .menu {
     display: block;
     font-weight: bold;
     font-size: 18px;
-  }
+}
 .title-border{
-  
     margin-bottom: 24px;
     margin-top: 32px;
 }
 .détail{
-    
     width: 90%;
     font-size: 17px;
 }
-/* .price{
-     font-weight: bolder;
-} */
 .prix-menu {
-        align-self: flex-end;
-        padding: 7px;
-        font-weight: bold;
-        padding-bottom: 10px;
+    align-self: flex-end;
+    padding: 7px;
+    font-weight: bold;
+    padding-bottom: 10px;
 }
 .button-deuxieme-page{
     display: inline-block;
@@ -256,15 +238,16 @@ h4{
 .surligne{
     border-bottom: 2px solid #99E2D0;
 }
-#footer{
-    margin-top: 0;
-}
+
+/*footer des pages menu*/
 .list-footer-deuxieme-page li {
     display:block;
     padding: 2px 0px;
     margin: 3px -27px;
-   
 }
 svg{
     margin-left: 3px;
+}
+#footer{
+    margin-top: 0;
 }
