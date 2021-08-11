@@ -61,6 +61,7 @@ body{
 }
 .container_logo img{
   width: 300px;
+  margin-left: -28px;
 }
 .container_logo img:hover{
   transform: scale(1.08);
@@ -85,7 +86,7 @@ body{
   margin-top: 14px;
 }
 .fa-map-marker-alt{
-  margin-left: -21px;
+  margin-left: -51px;
 }
 
 /*réservation*/
@@ -144,7 +145,7 @@ h1, .para-titre{
   display: flex;
   width: 100%;
   justify-content: center;
-  margin-left: -34px;
+  margin-left: -62px;
 }
 #area-filters h2{
   margin-left: 18px;
@@ -179,15 +180,15 @@ h1, .para-titre{
   font-weight: bolder;
 }
 .number-filter {
-    display: inline-block;
-    width: 22px;
-    background-color: rgb(147, 86, 220);
-    border-radius: 50%;
-    text-align: center;
-    padding-top: 2px;
-    color: white;
-    margin-left: -7px;
-    margin-top: 2px;
+  display: inline-block;
+  width: 22px;
+  background-color: rgb(147, 86, 220);
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 2px;
+  color: white;
+  margin-left: -7px;
+  margin-top: 2px;
 }
 .wrapper-icon{
   height: 40px;
@@ -318,8 +319,8 @@ p{
   margin: auto;
 }
 .logo-footer{ 
-   margin-top: 30px;
-   margin-left: 10px;
+  margin-top: 30px;
+  margin-left: 10px;
 } 
 .logo-footer svg path{
   fill:white;
@@ -344,7 +345,6 @@ svg {
 
 
 /*DEUXIEME PAGE DEKSTOP*/
-
 #header-second{
   display: flex;
   justify-content: center;
@@ -361,10 +361,9 @@ svg {
   font-size: 20px;
   color: #000;
 }
-
 .photo-menu img{
   width: 100%;
-  height:350px;
+  height: 350px;
   object-fit: cover;
 }
 .titre-restaurant{ 
@@ -372,7 +371,7 @@ svg {
   padding-left: 39%;
 }
 .coeur3{
-         margin-left: 18%;
+  margin-left: 18%;
 }
 .titre-second{
   color: #000;
@@ -482,7 +481,7 @@ svg {
 .button-deuxieme-page:hover{
   filter:brightness(100%);
   box-shadow: 10px 10px 33px -12px rgba(0,0,0,0.75);
- }
+}
 .commander{
   color: white;
   font-size: 20px;
@@ -491,7 +490,6 @@ svg {
 .fa-utensils, .fa-hands-helping{
   color: white;
 }
-
 .list-footer-deuxieme-page > li > a{
   color: white;
   font-size: 20px;

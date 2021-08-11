@@ -7,7 +7,6 @@
     margin-left: -10px;
     font-size: 25px;
 }
-
 .button{
     width: 270px;
     margin-left: 32%;
@@ -20,20 +19,19 @@
     padding-left: 54px;  
 }
 .groupe-filter{
-      display: block;
-      margin-left: 0;
-  }
+    display: block;
+    margin-left: 0;
+}
 #area-filters{
     width: 80%;
     display: block; 
 }
 
+
 .restaurant_carte{
     display: block;
     margin-left: 0px;
 } 
-
-
 #restaurant {
     display: block;
 }
@@ -78,7 +76,7 @@
 }
 
 .alignement-dekstop{
- display: block;
+    display: block;
 }
 .list-footer{
     padding-left: 24px;
@@ -91,10 +89,10 @@
 }
 .list-footer > li > a {
     font-size: 25px;
-     }
+}
 .fa-arrow-left{
-        margin-left: -150px;
-        font-size: 20px;
+    margin-left: -150px;
+    font-size: 20px;
 }
 .titre-restaurant{
     padding-left: 29%;
@@ -103,11 +101,11 @@
     margin-left: 25%;
 }
 .filter-second{
-        margin-left: 34px;
-        width: 73%;
+    margin-left: 34px;
+    width: 73%;
 }
 .regroupement-menu{
- display: flex;
- flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
  } 
