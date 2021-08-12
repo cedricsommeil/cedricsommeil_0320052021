@@ -1,7 +1,45 @@
-@media screen and (max-width: 1024px){
+@media screen and  (max-width:2009px){
+.arrow{
+    margin-left: 100px;
+}
+}
 
+
+@media  screen and (max-width:1622px){
+.arrow{
+    margin-left: 500px;
+}  
+}
+
+
+@media screen and ( max-width:1700px){
+.button{
+        margin-left: 38%;
+    }
+.groupe-filter{
+    margin-left: -51px;
+    display: flex;
+    justify-content: end;
+}
+}
+
+
+@media screen and (max-width: 1500px){
+#area-filters{
+    width: 80%;
+    display: block; 
+}
+.groupe-filter{
+    display: block;
+}
+.restaurant_carte{
+    display: block;
+    margin-left: 0;
+}
+
+@media screen and (max-width: 1024px){
 .fa-map-marker-alt{
-    margin-left: -15px;
+ margin-left: -15px;
 }
 .arrow{
     margin-left: -10px;
@@ -11,17 +49,16 @@
     width: 270px;
     margin-left: 32%;
 }
-
 .filter{
     margin-left: 198px;
 }
 .filtre-text {
     padding-left: 54px;  
 }
-.groupe-filter{
+/* .groupe-filter{
     display: block;
     margin-left: 0;
-}
+} */
 #area-filters{
     width: 80%;
     display: block; 
