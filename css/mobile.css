@@ -86,7 +86,7 @@ h1{
     padding-top: 43px
 }
 #restaurant section {
-    background-color: #f0f0f0;;
+    background-color: #f0f0f0;
 }
 #restaurant h2{
     padding-left: 15px;
@@ -105,34 +105,7 @@ figure{
 h4{
     display: inline-block; 
 }
-/* .coeur-1{
-    display: inline-block;
-    position: absolute;
-    font-size: 25px;
-    margin-top: 7px;
-    margin-left: 31%;
-    
-}
-.coeur-2{
-    display: inline-block;
-    position: absolute;
-    font-size: 25px;
-    margin-top: 7px;
-    margin-left: 31%;
-}
-.coeur-3{
-    display: inline-block;
-    margin-left: 41%;
-    position: absolute;
-    font-size: 25px;
-    margin-top: 7px;
-}
-.coeur-4{
-    display: inline-block;
-    margin-left: 33%;
-    position: absolute;
-    margin-top: 9px;
-} */
+
 .list-photo{
     padding-left: 0px;
     margin-top: 0;
@@ -178,7 +151,7 @@ h4{
 #area-filters-second{
     background-color:#f0f0f0;
     border-radius: 50px 50px 0 0;
-    z-index: 100px;
+    z-index: 1000;
     margin-top: -74px;
     position: relative;
 }
@@ -239,6 +212,9 @@ h4{
     border-bottom: 2px solid #99E2D0;
 }
 
+
+
+
 /*footer mobile des pages menu*/
 .list-footer-deuxieme-page li {
     display:block;
@@ -251,3 +227,4 @@ svg{
 #footer{
     margin-top: 0;
 }
+ }
