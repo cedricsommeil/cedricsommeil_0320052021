@@ -76,7 +76,8 @@ h1{
 
 
 .restaurant{
-    padding: 0;
+    padding: 3px;
+    margin-bottom: 50px;
 }
 .restaurant_carte{
     margin-top: -50px;
