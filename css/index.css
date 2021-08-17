@@ -274,7 +274,7 @@ p{
 .coeur {
   position: relative;
   display: inline-block;
-  margin-right: 12px;
+  margin-right: 20px;
   margin-left: 4%;
 }
 .coeur i {
@@ -316,7 +316,7 @@ p{
   fill:white;
 }
 svg {
-  margin-left: 24px;
+  margin-left: 4px;
 }
 .list-footer > li > a {
   color: white;
