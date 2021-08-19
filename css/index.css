@@ -8,19 +8,6 @@ body{
                             de simplifier 
                             la dimensionnement des éléments*/                     
 }
-
-/*loader-body*/
-.full__screen {
-   animation: loader-body 2s 400ms both;
-}
-@keyframes loader-body {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 /*loader*/
 .loader {
   border: 5px solid #f3f3f3;
@@ -42,6 +29,19 @@ body{
        opacity: 1;}
   100% { transform: rotate(360deg); 
          opacity: 0;}
+}
+
+/*loader-body*/
+.full__screen {
+   animation: loader-body 2s 400ms both;
+}
+@keyframes loader-body {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 
