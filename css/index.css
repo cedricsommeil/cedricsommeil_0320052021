@@ -18,7 +18,7 @@ body{
   height:120px;
   animation: chargement 2s linear;
   animation-fill-mode: forwards;
-  /* La cible retiendra les valeurs calculées définies lors 
+  /* Fowards :La cible retiendra les valeurs calculées définies lors 
   de la dernière étape (keyframe).
    La dernière étape considérée dépend de la valeur de animation-direction 
    et de animation-iteration-count : */
@@ -67,6 +67,7 @@ body{
   margin: 0px auto;
 }
 
+
 /*partie reservez le menu qui convient*/
 #research{
   border-top: 2px solid rgb(220, 220, 220);
@@ -87,6 +88,7 @@ body{
 .fa-map-marker-alt{
   margin-left: -51px;
 }
+
 
 /*réservation*/
 h1{
@@ -134,8 +136,6 @@ h1, .para-titre{
   width: 100%;
   background-color:rgb(246, 246, 246);
 }
-
-
 
 
 /*la partie filtres*/
@@ -200,9 +200,7 @@ h1, .para-titre{
 }
 
 
-
 /*les cartes-menus*/
-
 .restaurant{
   background-color: rgb(246, 246, 246);
   padding: 30px;
@@ -399,8 +397,19 @@ svg {
 /*filtres des pages menu */
 .filter-second{
   animation-name:slideIn;
-  animation-duration:3s;
+  animation-duration: 4s;
 }
+/* La fonction CSS translate3d() repositionne un élément dans l’espace 3D. 
+Son résultat est un type <transform-function>data.
+ ceci est la syntaxe translate3d(tx, ty, tz) 
+tx:
+<longueur>ou <centage> représentant l’abscisse du vecteur de translation.
+ty:
+Longueur <>ou <centage> représentant l’ordonnée du vecteur translation.
+tz:
+ <longueur> représentant la composante z du vecteur de translation. 
+ Il ne peut pas s’agir d’un <pourcentage>valeur; dans ce cas, la propriété contenant 
+ la transformation est considérée comme non valide. */
 @keyframes slideIn{
   from{
       opacity:0;
@@ -415,6 +424,10 @@ svg {
 .filter-second {
   width: 29%;
   overflow: hidden;
+  /* La propriété CSS overflow est une propriété raccourcie qui définit comment gérer le dépassement du contenu d'un élément dans son bloc. Elle définit 
+  les valeurs des propriétés overflow-x et overflow-y. 
+  la valeur hidden: Le contenu est rogné si besoin pour 
+  s'inscrire dans la boîte de remplissage (padding) et aucune barre de défilement n'est affichée. */
   display: flex;
   padding: 5px;
   margin: 10px;
@@ -442,6 +455,8 @@ svg {
   cursor: pointer;
   box-shadow: 4px 4px 7px 1px rgba(0, 0, 0, 0.36);
 }
+/*La pseudo-classe :active permet de cibler un élément lorsque celui-ci est activé par l'utilisateur. 
+  Elle permet de fournir un feedback indiquant que l'activation a bien été détectée par le navigateur. Lorsqu'on a une interaction avec un pointeur, il s'agit généralement du moment entre l'appui sur le pointeur et le relâchement de celui-ci. */
 .filter-second:active {
   box-shadow: 4px 4px 7px 1px rgba(0, 0, 0, 0.36);
 } 
@@ -456,8 +471,15 @@ svg {
 }
 .text-menu{
   flex: 1;
-/*je vais rajouter, tous ce qui est en dessous de flex:1 est un supplément nouveau de manière a que l'ecrit devient invisible lors de l'animation*/
+  /* je vais rajouter, tous ce qui est en dessous de flex:1 est un supplément nouveau,
+  La propriété CSS d’espace blanc définit la façon dont l’espace blanc à l’intérieur d’un élément est géré.
+  de manière a que l'ecrit devient invisible lors de l'animation , Nowrap: Réduit les espaces blancs comme pour ,
+  mais supprime les sauts de ligne (habillage du texte) dans la source.normal*/ 
   white-space: nowrap;
+  /* La propriété text-overflow définit la façon dont le contenu textuel qui dépasse d'une boîte est signalé pour les utilisateurs. Le texte peut être rogné 
+  (clipping), afficher une ellipse ('…', U+2026 HORIZONTAL ELLIPSIS) ou afficher une chaîne de caractères choisie. et
+  et ELLIPSIS:Ce mot-clé indique qu'on affiche une ellipse ('…', U+2026 HORIZONTAL ELLIPSIS) pour représenter le texte rogné. L'ellipse est affichée à l'intérieur de la boîte de contenu et réduit donc la quantité de texte affichée. 
+  S'il n'y a pas assez de place pour afficher l'ellipse, celle-ci est rognée*/
   text-overflow: ellipsis;
   overflow: hidden;
  }
