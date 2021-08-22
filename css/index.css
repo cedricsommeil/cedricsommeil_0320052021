@@ -18,6 +18,10 @@ body{
   height:120px;
   animation: chargement 2s linear;
   animation-fill-mode: forwards;
+  /* La cible retiendra les valeurs calculées définies lors 
+  de la dernière étape (keyframe).
+   La dernière étape considérée dépend de la valeur de animation-direction 
+   et de animation-iteration-count : */
   margin: auto;
   position: absolute;
   top:0;bottom:0;left:0;right:0;
@@ -46,10 +50,6 @@ body{
 
 
 /*première feuille -header-*/
-.container{
-    width: 96%;            
-    margin: 0px auto;
-}
 .logo-ohmyfood {
   display:block;
   margin: 20px auto;
@@ -61,6 +61,10 @@ body{
 }
 .container_logo img:hover{
   transform: scale(1.08);
+}
+.container{
+  width: 96%;            
+  margin: 0px auto;
 }
 
 /*partie reservez le menu qui convient*/
@@ -78,7 +82,6 @@ body{
   font-weight: bolder;
   color: #000;
   padding-left: 21px;
-  /* display: inline-block; */
   margin-top: 14px;
 }
 .fa-map-marker-alt{
@@ -99,19 +102,25 @@ h1, .para-titre{
 }
 .button{
   text-align: center;
+  width: 400px;
   height: 57px;
- 
   border-radius: 25px;
   display: inline-block;
-  width: 400px;
   margin-left: 39%;
   margin-bottom: 42px;
   padding-top: 15px;
+  /* La fonction CSS linear-gradient() 
+  crée une image composée d’une transition progressive 
+  entre deux couleurs ou plus le long d’une ligne droite. 
+  Son résultat est un objet du type <gradient>data, qui est un type spécial de <image>. */
   background: linear-gradient(to bottom right, #FF79DA, #9356DC);
   filter:brightness(80%);
   transition: filter ease 1s, box-shadow ease 1s;
   cursor:pointer;
 }  
+/* brightness()
+ La fonction permet de modifier la luminosité d'une image grâce à un facteur linéaire. Un argument égal 0% créera une image totalement noire et une valeur de 100% conservera l'image d'entrée telle quelle. Il est possible d'utiliser des valeurs supérieures à 100% afin d'obtenir des images saturées en luminosité.
+ La valeur par défaut pour l'argument est 1 */ 
 .button:hover{
   filter:brightness(100%);
   box-shadow: 10px 10px 33px -12px rgba(0, 0, 0, 0.75);
@@ -130,6 +139,14 @@ h1, .para-titre{
 
 
 /*la partie filtres*/
+#area-filters{
+  margin-bottom: 30px;
+}
+#area-filters h2{
+  margin-left: 18px;
+  padding-top: 14px;
+  width: 100%;
+}
 .titre-filtre{
   width: 15%;
   margin-bottom: -12px;
@@ -140,14 +157,6 @@ h1, .para-titre{
   justify-content: center;
   margin-left: -43px;
 }
-#area-filters h2{
-  margin-left: 18px;
-  padding-top: 14px;
-  width: 100%;
-}
-#area-filters{
-  margin-bottom: 30px;
-}
 .filter{
   margin-left: 70px;
   padding-right: 15px;
@@ -157,6 +166,7 @@ h1, .para-titre{
   padding-top: 14px;
   margin-top: 25px;
   box-shadow: 0 0 10px grey;  
+  cursor: pointer;
 }
 .filter:hover i{
   color: #9356DC; 
@@ -166,11 +176,6 @@ h1, .para-titre{
 }
 .filtre-text:hover{
   color: #000;
-}
-.filtre-text{
-  padding: 60px;
-  padding-left: 40px;
-  font-weight: bolder;
 }
 .number-filter {
   display: inline-block;
@@ -188,19 +193,16 @@ h1, .para-titre{
   width: 40px;
   padding-left: 20px;
 }
+.filtre-text{
+  padding: 60px;
+  padding-left: 40px;
+  font-weight: bolder;
+}
+
 
 
 /*les cartes-menus*/
-a{
-  text-decoration: none;
-  color: white;
-}
-ul li {
-  list-style-type: none;
-  border-radius: 20px;
-  padding: 3px;
-  color: white;
-}
+
 .restaurant{
   background-color: rgb(246, 246, 246);
   padding: 30px;
@@ -234,8 +236,8 @@ img{
   object-fit: cover;
 }
 figure img {
-  height: 60%;
   width: 100%;
+  height: 60%;
   border-radius: 20px 20px 0 0;
 }
 figcaption {
@@ -299,6 +301,16 @@ p{
 
 
 /*footer-menu*/
+a{
+  text-decoration: none;
+  color: white;
+}
+ul li {
+  list-style-type: none;
+  border-radius: 20px;
+  padding: 3px;
+  color: white;
+}
 #footer{
   margin-top: 50px;
   background-color: rgb(53, 53, 53);
