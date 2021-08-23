@@ -53,7 +53,7 @@ h1{
 }
 .filtre-text{
     padding-left: 10px;
-    margin-left: 4;
+    margin-left: 4px;
     padding: 26px;
 }
 #area-filters{
@@ -63,7 +63,7 @@ h1{
 }
 
 #area-filters h2{
-    padding-left: 8px;
+    padding-left: 0;
     margin-bottom: 25px;
 }
 .filter:hover i{
@@ -81,6 +81,8 @@ h1{
 }
 .restaurant_carte{
     margin-top: -50px;
+    margin-bottom: 52px;
+
 }
 .restaurant h2{
     padding: 19px;
@@ -120,7 +122,16 @@ h4{
 /*footer mobile*/
 #footer{
     text-align: left;
+   
 }
+.logo-footer {
+    margin-top: 4px;
+    margin-left: 42px;
+}
+/* .logo-footer {
+    margin-top: 48px;
+    margin-left: 42px;
+} */
 .list-footer li {
     margin: 2px -11px;
  }
@@ -219,15 +230,20 @@ h4{
 
 
 /*footer mobile des pages menu*/
+
+.alignement-dekstop {
+    display: block;
+    margin-top: 39px;
+}
 .list-footer-deuxieme-page li {
-    display:block;
+    display: block;
     padding: 2px 0px;
-    margin: 3px -27px;
+    margin: 3px -34px;
 }
 svg{
     margin-left: -30px;
 }
 #footer{
-    margin-top: 0;
+    margin-top: -40px;
 }
  }

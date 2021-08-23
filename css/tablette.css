@@ -127,6 +127,10 @@
 .list-footer > li > a {
     font-size: 25px;
 }
+.logo-footer {
+    margin-top: 4px;
+    margin-left: 31px;
+}
 .fa-arrow-left{
     margin-left: -150px;
     font-size: 20px;
