@@ -204,6 +204,7 @@ h1, .para-titre{
 .restaurant{
   background-color: rgb(246, 246, 246);
   padding: 30px;
+  margin-bottom: 39px;
 }
 .restaurant_carte h2{
   margin: 15px 0px;
@@ -275,7 +276,7 @@ p{
   position: relative;
   display: inline-block;
   margin-right: 20px;
-  margin-left: 4%;
+  margin-left: 7%;
 }
 .coeur i {
   color: rgb(161, 161, 161);
@@ -320,9 +321,8 @@ ul li {
   margin: auto;
 }
 .logo-footer{ 
-  
-    margin-top: 4px;
-    margin-left: 38px;
+  margin-top: 4px;
+  margin-left: 38px;
 } 
 .logo-footer svg path{
   fill:white;
@@ -402,7 +402,7 @@ svg {
 }
 /* La fonction CSS translate3d() repositionne un élément dans l’espace 3D. 
 Son résultat est un type <transform-function>data.
- ceci est la syntaxe translate3d(tx, ty, tz) 
+ceci est la syntaxe translate3d(tx, ty, tz) 
 tx:
 <longueur>ou <centage> représentant l’abscisse du vecteur de translation.
 ty:
