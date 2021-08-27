@@ -2,13 +2,10 @@
 .arrow{
     margin-left: 100px;
 }
-}
-
-
-@media  screen and (max-width:1622px){
-.arrow{
+.title-border{
+    font-size: 20px;
     margin-left: 500px;
-}  
+  }
 }
 
 
@@ -21,8 +18,23 @@
     display: flex;
     justify-content: end;
 }
-}
+.title-border{
+    font-size: 20px;
+    margin-left: 350px;
+  }
 
+}
+@media  screen and (max-width:1622px){
+    .arrow{
+        margin-left: 500px;
+    }  
+    .title-border{
+        font-size: 20px;
+        margin-left: 150px;
+      }
+    
+    }
+    
 
 @media screen and (max-width: 1500px){
 #area-filters{
@@ -36,6 +48,11 @@
     display: block;
     margin-left: 0;
 }
+.title-border{
+    font-size: 20px;
+    margin-left: 50px;
+  }
+
  } 
 @media screen and (max-width: 1024px){
 .fa-map-marker-alt{

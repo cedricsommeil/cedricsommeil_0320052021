@@ -116,7 +116,7 @@ h1, .para-titre{
   entre deux couleurs ou plus le long d’une ligne droite. 
   Son résultat est un objet du type <gradient>data, qui est un type spécial de <image>. */
   background: linear-gradient(to bottom right, #FF79DA, #9356DC);
-  filter:brightness(80%);
+  filter:brightness(90%);
   transition: filter ease 1s, box-shadow ease 1s;
   cursor:pointer;
 }  
@@ -208,7 +208,7 @@ h1, .para-titre{
 /*les cartes-menus*/
 .restaurant{
   background-color: rgb(246, 246, 246);
-  padding: 30px;
+  padding: 50px;
   margin-bottom: 39px;
 }
 .restaurant_carte h2{
@@ -233,8 +233,9 @@ figure {
   height: 350px;
   border-radius: 20px;
   background-color: white;
-  box-shadow: 0px 0px 10px  rgba(36, 36, 36, 0.1);
+  box-shadow: 0px 0px 10px rgb(36 36 36 / 10%);
   position: relative;
+  width: 100%;
 }
 img{
   object-fit: cover;
@@ -291,6 +292,9 @@ p{
   left: 0;
   opacity: 0;
   position: absolute;
+  background: -webkit-linear-gradient(#FF79DA, #9356DC);
+  -webkit-background-clip: text;/*ciblé l'icone*/
+  -webkit-text-fill-color: transparent;/* pour enlever la couleur d'origine, tu l'as rend transparent*/
 }
 
 .coeur:hover .vide {
@@ -299,7 +303,6 @@ p{
 }
 .coeur:hover .plein {
   z-index: 1000;
-  color: #9356dc;
   opacity: 1;
   transition: .5s 0s ease;
 } 
@@ -390,7 +393,7 @@ svg {
 /* les titres des categories proposés dans les pages menu , ainsi que les informations...*/
 .title-border{
   font-size: 20px;
-  margin-left: 39px;
+  margin-left: 619px;
 }
 .surligne{
   border-bottom: 2px solid #99E2D0;
@@ -516,7 +519,7 @@ tz:
   margin-top: 44px;
   padding-top: 15px;
   background: linear-gradient(to bottom right, #FF79DA, #9356DC);
-  filter:brightness(80%);
+  filter:brightness(90%);
   transition:filter ease 1s, box-shadow ease 1s;
   cursor:pointer;
 }
