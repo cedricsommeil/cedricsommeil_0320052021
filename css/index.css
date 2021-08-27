@@ -127,6 +127,11 @@ h1, .para-titre{
   filter:brightness(100%);
   box-shadow: 10px 10px 33px -12px rgba(0, 0, 0, 0.75);
 }
+/* <spread-radius> 
+ Une quatrième valeur de longueur (<length>).
+ Les valeurs positives étaleront l'ombre et les valeurs négatives
+ rétréciront l'ombre. Si elle n'est pas définie, la valeur par défaut est 0 
+(l'ombre aura la même taille que l'élément). */
 .button-recherche {
   color: white;
   font-weight: bold;
