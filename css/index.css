@@ -19,7 +19,7 @@ body{
   animation: chargement 2s linear;
   animation-fill-mode: forwards;
   /* Fowards :La cible retiendra les valeurs calculées définies lors 
-  de la dernière étape (keyframe).
+   de la dernière étape (keyframe).
    La dernière étape considérée dépend de la valeur de animation-direction 
    et de animation-iteration-count : */
   margin: auto;
