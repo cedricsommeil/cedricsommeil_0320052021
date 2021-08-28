@@ -99,7 +99,9 @@
 .list-photo{
     display: flex;
 }
-
+figure{
+width: 88%;
+}
 .coeur-1{
     display: inline-block;
     position: absolute;
